@@ -1,6 +1,6 @@
 amostra = input("Digite as amostas (a1 a2 a3): ")  # coleta as amostras
 amostra = amostra.split()  # coloca os valores em uma lista
-rol = sorted(list(map(float, amostra)))  # transforma os valores em inteiros e organiza
+rol = sorted(list(map(float, amostra)))  # transforma os valores em números do tipo float e organiza
 
 
 # função que calcula e retorna a média das amostras
